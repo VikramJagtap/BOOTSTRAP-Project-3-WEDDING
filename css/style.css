@@ -1,0 +1,149 @@
+@charset "utf-8";
+*{
+  font-size: 16px;
+  font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration:none;
+}
+
+li{
+  list-style: none;
+}
+
+.logo img{
+  width:140px;
+}
+
+.hamp i{
+  font-size: 30px;
+}
+
+.touch a{
+  color:#CAAF83;
+}
+
+.wed-1, .wed-2, .wed-3, .wed-4, .wed-5, .wed-6{
+  border: 1px solid #CAAF83;
+}
+
+.Featured-Wedding{
+  border-bottom: 1px solid #CAAF83;
+}
+
+.work-with-us-btn button{
+  background-color:#E08700;
+  
+}
+
+.hero-img {
+  background-image: url(../images/mangostudios-f-bw-0999-1920x1200.jpg);
+  background-size: cover;
+}
+
+.hero-img button{
+  background-color: #E08700;
+}
+
+.hero-img h1 {
+  font-size: 80px;
+  font-family: "Ortica";
+}
+
+.hero  i {
+  color: #E08700;
+}
+
+.head a {
+  color: #3d3d3d;
+}
+footer{
+  background-color: #f4eee8;
+}
+footer input{
+  background-color:#f4eee8;
+
+}
+
+.owl-class img{
+ height: 50px;
+ width: 50px;
+}
+
+.footerlogo{
+  width: 100px;
+}
+
+@media (min-width : 768px){
+
+  .mango-div{
+    padding-top : 100px ;
+    padding-bottom: 100px;
+  }
+
+  
+
+}
+
+
+@media (min-width : 992px){
+
+  .hero-img {
+    background-attachment: fixed;
+  }
+
+
+  .contain {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  .img-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  
+  .contain:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.endimg img{
+  height: 250px;
+  width: 250px;
+}
+.footerlogo{
+  height: 50px;
+  width: 150px;
+}
+}
+
